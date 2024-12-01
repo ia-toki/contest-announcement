@@ -11,7 +11,7 @@ export const BeautifulButton = ({
   return (
     <AwesomeButton
       style={{ zIndex: '0' }}
-      ripple={true}
+      ripple={false}
       cssModule={AwesomeButtonStyles}
       type={buttonType}
       disabled={disabled}
